@@ -1,6 +1,6 @@
 {
   "name": "esm-gen-webpack-plugin",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "生成esm规范和cjs规范包的webpack插件",
   "main": "lib/index.js",
   "scripts": {
