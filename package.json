@@ -1,6 +1,6 @@
 {
   "name": "esm-gen-webpack-plugin",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "生成esm规范和cjs规范包的webpack插件",
   "main": "lib/index.js",
   "scripts": {
@@ -37,7 +37,7 @@
     "babel-plugin-module-resolver": "^5.0.0",
     "fs-extra": "^11.1.1",
     "glob": "^10.3.0",
-    "moga-app-base-webpack-config": "file:../moga-app-base-webpack-config",
+    "moga-app-base-webpack-config": "^2.0.0",
     "render-utils": "^1.0.12",
     "typescript": "^5.1.6"
   }
