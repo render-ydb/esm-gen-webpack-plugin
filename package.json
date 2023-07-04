@@ -1,0 +1,43 @@
+{
+  "name": "esm-gen-webpack-plugin",
+  "version": "1.0.0",
+  "description": "生成esm规范和cjs规范包的webpack插件",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/render-ydb/esm-gen-webpack-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/render-ydb/esm-gen-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/render-ydb/esm-gen-webpack-plugin#readme",
+  "devDependencies": {
+    "@types/babel__core": "^7.20.1",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.3.1",
+    "webpack": "^5.87.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-runtime": "^7.22.5",
+    "babel-plugin-import": "^1.13.6",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.0",
+    "moga-app-base-webpack-config": "file:../moga-app-base-webpack-config",
+    "render-utils": "^1.0.12"
+  }
+}
