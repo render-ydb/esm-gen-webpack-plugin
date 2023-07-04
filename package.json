@@ -38,6 +38,7 @@
     "fs-extra": "^11.1.1",
     "glob": "^10.3.0",
     "moga-app-base-webpack-config": "file:../moga-app-base-webpack-config",
-    "render-utils": "^1.0.12"
+    "render-utils": "^1.0.12",
+    "typescript": "^5.1.6"
   }
 }
